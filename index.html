@@ -11,7 +11,7 @@
 <body>
     <div class="app">
         <header class="header">
-            <div class="grid">
+            <div class="grid" >
                 <nav class="header_navbar">
                     <ul class="header_navbar-list">
                       <li class=" header_navbar-item header_navbar-item--separate">
@@ -29,13 +29,13 @@
                     </ul>
   
                     <ul class="header_navbar-list">
-                      <li class="header_navbar-item">
+                      <li class="header_navbar-item header_navbar-item--has-notify">
                           <a href="" class="header_navbar-item-link">
                             <i class="header_navbar-icon fas fa-bell"></i>
-                            Thông báo</a>
+                            Notification</a>
                          <div class="header_notify">
                             <header class="header_notify-header">
-                                <h3>Thông báo mới nhận</h3>
+                                <h3>New notification received</h3>
                             </header>
                             <ul class="header_notify-list">
                                 <li class="header_notify-item header_notify-item--viewed">
@@ -67,7 +67,7 @@
                                 </li>
                             </ul>
                             <footer class="header_notify-footer">
-                                <a href="" class="header_notify-footer-btn">Xem tất cả</a>
+                                <a href="" class="header_notify-footer-btn">See All</a>
                             </footer>
 
                          </div>
@@ -75,19 +75,63 @@
                       <li class="header_navbar-item">
                           <a href="" class="header_navbar-item-link">
                             <i class="header_navbar-icon far fa-question-circle"></i>
-                            Trợ giúp</a>
+                            Help</a>
                       </li>
-                      <li class="header_navbar-item header_navbar-item--strong header_navbar-item--separate">Đăng kí</li>
-                      <li class="header_navbar-item header_navbar-item--strong ">Đăng nhập</li>
+                      <li class="header_navbar-item header_navbar-item--strong ">Log In</li>
                     </ul>
-              </nav>
+                </nav>
+
+                <div class="header-with-seach">
+                    <div class="header_logo">
+                        <img class="header_logo-img" src="img/logo_giadung.png" alt="logo">
+                    </div>
+
+                    <div class="header_search">
+                        <div class="header_search-menu">
+                            <img class="header_search-menu-img"  src="https://img.icons8.com/ios/50/menu--v1.png" alt="menu--v1"/> 
+                           <span>Menu</span>
+                            
+                        </div>
+                        <input type="text" class="header_search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                    </div>
+                </div>
+
+                <div id="wide-nav" class="header-bottom wide-nav nav-dark hide-for-medium">
+                    <div class="flex-row container">
+
+                        <div class="flex-col hide-for-medium flex-left">
+                            <ul class="nav header-nav header-bottom-nav nav-left  nav-size-large nav-spacing-large">
+                                <li id="menu-item-163" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-2 current_page_item menu-item-163 active menu-item-design-default">
+                                    <a href="" aria-current="page" class="nav-top-link">Trang chủ</a>
+                                </li>
+                                <li id="menu-item-975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-975 menu-item-design-default">
+                                    <a href="" class="nav-top-link">Giới thiệu</a>
+                                </li>
+                                <li id="menu-item-52" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-52 menu-item-design-default">
+                                    <a href="" class="nav-top-link">Điện gia dụng</a>
+                                </li>
+                                <li id="menu-item-101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101 menu-item-design-default">
+                                    <a href="" class="nav-top-link">Thiết bị bếp</a>
+                                </li>
+                                <li id="menu-item-1125" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1125 menu-item-design-default">
+                                    <a href="" class="nav-top-link">Thiết bị vệ sinh</a>
+                                </li>
+                                <li id="menu-item-102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102 menu-item-design-default">
+                                     <a href="" class="nav-top-link">Bình nước nóng</a>
+                                </li>
+                                <li id="menu-item-104" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-104 menu-item-design-default">
+                                    <a href="" class="nav-top-link">Sản phẩm khác</a>
+                                </li>
+                                <li id="menu-item-960" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-960 menu-item-design-default">
+                                    <a href="" class="nav-top-link">Tin tức</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
             </div>
-            <div id="logo" class="flex-col logo">
-                <a href="http://giadung.maugiaodien.com/" title="Đồ gia dụng Smart" rel="home">
-                    <img width="440" height="126" src="http://giadung.maugiaodien.com/wp-content/uploads/2021/04/logo_giadung.png" class="header_logo header-logo" alt="Đồ gia dụng Smart"/>
-                </a>
-            </div>
+            
         </header>
 
         <div class="container">
@@ -99,5 +143,6 @@
         </footer>
 
     </div>
+    
 </body>
 </html>
