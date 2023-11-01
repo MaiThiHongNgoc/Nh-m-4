@@ -32,6 +32,40 @@ html{
     flex-wrap: wrap;
 }
 /* ============css phi============ */
+.banner-header{
+  display: flex;
+  max-height: fit-content;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+.banner{
+  max-width: 60%;
+}
+.banner img{
+  max-width: 100%;
+}
+
+.baiviet-header{
+  max-width: 40%;
+
+}
+.baivier-h2{
+  background-color: #a91a1a;
+  color: white;
+}
+.baivier-h2 h2{
+  font-size: 200%;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.baiviet-thumnail{
+  display: flex;
+}
+.baiviet-thumnail img{
+  max-width: 100px;
+}
+
 .section01{
   height: fit-content;
   background-color: #e6e1e1;
