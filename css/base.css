@@ -31,6 +31,89 @@ html{
     display: flex;
     flex-wrap: wrap;
 }
-.content {
-  width: 1265px;
+
+/* CODE của a phi*/
+.banner-header{
+    display: flex;
+    max-height: fit-content;
+    padding-bottom: 10px;
+    background-color: #e2e2e2;
 }
+  .banner{
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .banner img{
+    max-width: 100%;
+  }
+  
+  .baiviet-header{
+    width: 440px;
+    height: 260px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: var(--white-color);
+  }
+  .baivier-h2{
+    background-color: #a91a1a;
+    color: white;
+  }
+  .baivier-h2 h2{
+    font-size: 200%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top: 25px;
+  }
+  .baiviet-thumnail{
+    display: flex;
+  }
+  .baiviet-thumnail img{
+    max-width: 100px;
+  }
+  
+  .section01{
+    height: fit-content;
+    background-color: #e6e1e1;
+    padding-top: 10px;
+  }
+  .sanphambanchay{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    max-width: 1265px;
+    max-height: fit-content;
+  }
+  .sanphambanchay img{
+    width: 260px;
+    height: 280px;
+  }
+  .sanphambanchay p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .containerSanPhamBanChay{
+    display: flex;
+    background-color: #a91a1a;
+    text-align: center;
+    color: #fcfafa;
+  }
+  .img-spbc{
+    max-width: fit-content;
+    max-height: fit-content;
+    border: 1px solid rgb(169, 166, 166);
+    padding: 5px;
+    margin-left: 10px;
+    background-color: white;
+  
+  }
+  .containerSanPhamBanChay .xemtatca{
+    font-size: 15px;
+    padding-left: 1300px;
+    
+    
+  }
+  /*code a phi */
