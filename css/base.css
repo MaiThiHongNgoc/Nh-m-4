@@ -80,13 +80,19 @@ html{
     padding-top: 60px;
     width: 1100px;
     justify-content: center;
+    margin-left: 50px;
+  }
+  .containerSanPhamBanChay h2 {
+    width: 200px;
+    height: 20px;
+    margin-top: 18px;
   }
   .sanphambanchay{
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
-    max-width: 1265px;
     max-height: fit-content;
+    margin-left: 30px;
   }
   .sanphambanchay img{
     width: 260px;
@@ -115,10 +121,10 @@ html{
     background-color: white;
   
   }
-  .containerSanPhamBanChay .xemtatca{
+  /*.containerSanPhamBanChay .xemtatca{
     font-size: 15px;
-    padding-left: 1300px;
+    padding-left: 1300px; 
     
     
-  }
+  }*/
   /*code a phi */
