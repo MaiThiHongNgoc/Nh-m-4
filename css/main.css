@@ -18,6 +18,8 @@
     position: relative;
     min-height: 26px;
 }
+
+
 .header_navbar-item--has-notify:hover .header_notify {
     display: block;
 }
