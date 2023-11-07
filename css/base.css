@@ -10,6 +10,8 @@
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
 }
 *{
+  padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
@@ -133,10 +135,22 @@ html{
     background-color: white;
   
   }
+  a{
+    float: left;
+    padding-left: 10px;
+    font-size: large;
+    color: black;
+    font-weight: 700;
+  }
+  a:hover , a:active{
+    color: #a91a1a;
+
+  }
   /*.containerSanPhamBanChay .xemtatca{
     font-size: 15px;
     padding-left: 1300px; 
     
     
   }*/
+  
   /*code a phi */
