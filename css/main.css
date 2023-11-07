@@ -374,6 +374,7 @@
 .header-bottom-nav {
     list-style: none;
     padding-left: 100px;
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     position: absolute;
