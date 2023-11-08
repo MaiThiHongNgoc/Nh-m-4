@@ -20,6 +20,10 @@ html{
     line-height: 1.6rem;
     box-sizing: border-box;
 }
+.app {
+  width: 1265px;
+
+}
 .grid {
     width: 1265px;
     max-width: 100%;
