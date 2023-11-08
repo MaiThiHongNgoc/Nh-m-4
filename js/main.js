@@ -1,25 +1,9 @@
-$('.sanphambanchay').slick({
-    sanphambanchayMode: true,
-    sanphambanchayPadding: '60px',
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          arrows: false,
-          sanphambanchayMode: true,
-          sanphambanchayPadding: '40px',
-          slidesToShow: 3
-        }
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          arrows: false,
-          sanphambanchayMode: true,
-          sanphambanchayPadding: '40px',
-          slidesToShow: 1
-        }
-      }
-    ]
-  });
+document.addEventListener("DOMContentLoaded",function(){
+  $('.sanphambanchay').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      prevArrow:"<button type='button' class='slick-prev pull-left'><i class='bx bx-chevron-left' ></i></button>",
+  nextArrow:"<button type='button' class='slick-next pull-right'><i class='bx bx-chevron-right' ></i></button>",
+    });
+})
